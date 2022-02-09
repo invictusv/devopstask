@@ -47,4 +47,4 @@ deploy1:
   script:
     - echo "Do your deploy here"
   tags:
-    -vmn
+    - vmn
