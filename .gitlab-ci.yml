@@ -22,20 +22,29 @@ build1:
   stage: build
   script:
     - echo "Do your build here"
+  tags:
+    - vmn        #Vitaly n
 
 test1:
   stage: test
   script:
     - echo "Do a test here"
     - echo "For example run a test suite"
+  tags:
+    - vmn
+  
 
 test2:
   stage: test
   script:
     - echo "Do another parallel test here"
     - echo "For example run a lint test"
+  tags:
+    - vmn
 
 deploy1:
   stage: deploy
   script:
     - echo "Do your deploy here"
+  tags:
+    -vmn
