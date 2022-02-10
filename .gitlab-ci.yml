@@ -23,8 +23,8 @@ build1:
   script:
     - echo "Do your build here"
   tags:
-    - vmn        #Vitaly n
-
+    - vmn        
+    
 test1:
   stage: test
   script:
