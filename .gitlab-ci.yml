@@ -42,6 +42,14 @@ test2:
   tags:
     - vmn
 
+test3:
+  stage: test
+  script:
+    - echo "Do another parallel test here"
+    - echo "For example run a lint test"
+  tags:
+    - vmn
+
 deploy1:
   stage: deploy
   script:
